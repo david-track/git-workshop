@@ -333,8 +333,7 @@ Try git branch again to check which branch you are currently on:
       jeroen-egelmeers
     * main
 
-The new branch is now created. Now let’s work in that branch. To switch
-to the new branch:
+The new branch is now created. Now let’s work in that branch. By using `git checkout -b jeroen-egelmeers` you directly switched to that branch. If you did something else in the meantime, and want to switch back to the branch to work on it use:
 
     $ git checkout jeroen-egelmeers
 
@@ -469,8 +468,8 @@ Do you still remember how to create the branch? If not, scroll back up, and find
 Probably you got an error now. You did not yet create the branch on the online repository, but only local.
 Git gives an error message stating how to fix your issue. Can you figure it out yourself?
 
-Now go to our online repository on Github using this link:
-`https://github.com/JeroenEgelmeers/git-workshop`
+Now go to our online repository on Github using the newly created fork on your profile. Go to Github, click on your profile image. Then on "Your profile".
+Then click on "Repositories" on the menu next to your profile image. And find the forked repository there. Click then on the green "Code" button to get the right clone URL.
 
 - Click on the `Pull Request` tab.
 - Click on the green button `New pull request`
@@ -597,8 +596,9 @@ You have learnt :
 7. Undoing changes 
 8. Branching and merging 
 9. Pull Requests (including WIP/DRAFT)
-10. Fixing conflicts
-11. Using GIT via Github Desktop
+10. Forking excisting projects
+11. Fixing conflicts
+12. Using GIT via Github Desktop
 
 Next time someone is asking you something about Git, you're ready to answer them! Congratulations!
 Want to learn more? Try to create your very own repository, and start playing!
@@ -644,5 +644,5 @@ This work is licensed under the Creative Commons
 Attribution-NonCommercial-ShareAlike 3.0 License\
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</a>\
 This workshop was based on the Workshop from Thong Kuah, and exteded by Jeroen Egelmeers.
-Other contributors: lliza
+Contributors to this version: lliza
 
